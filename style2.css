@@ -1,15 +1,30 @@
 body {
     background-color: azure;
+    overflow: hidden;
+    margin:auto;
 }
 
-input {
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box; 
+.container {
+    /* width: 400px; */
+    /* padding: 10px; */
+    display: grid;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
 }
 
- input[type=text] {
-    width: 100%;
-    display: inline-block;
+.name1 {
+    /* background-color: blueviolet; */
+    display: flex;
     justify-content: space-between;
+    width: 50%;
 }
+
+
+
+/* -------------test only-------------- */
+    /* flex-wrap: wrap; */
+    /* box-sizing: border-box; */
+    /* flex-direction: column; */
+    /* box-sizing: border-box; */
