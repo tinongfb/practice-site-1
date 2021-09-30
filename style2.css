@@ -21,6 +21,40 @@ body {
     width: 50%;
 }
 
+/*****************************************Apply Responsive styles***************************************
+ *More info here: *https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_flex-direction_responsive
+ *******************************************************************************************************/
+
+
+ .flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;  
+    padding:50px;
+    
+    background-color:#000000;
+  }
+  
+  .flex-item-left {
+    background-color:red;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+
 
 
 /* -------------test only-------------- */
